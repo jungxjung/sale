@@ -22,13 +22,7 @@
                 <li>All price negotiable</li>
                 <li>First come first serve</li>
                 <li>All things need to be gone by July 30, 2021</li>
-                <li>Contact me if you are interested.
-                    <ul>
-                        <li>chihjungchen@outlook.com</li>
-                        <li>314 665 6799</li>
-                    </ul>
-
-                </li>
+                <li>Submit the form at the bottom if you are interested or email me. (chihjungchen@outlook.com)</li>
             </ul>
         </div>
 
@@ -290,28 +284,36 @@
                   </div>
                 </div>
             </div>
-            <form name="contact" method="POST" data-netlify="true" id="contactform">
+            <form name="contact" method="POST" data-netlify="true" id="contactform" class="col-5">
                 <p>
-                  <label>Your Name: <input type="text" name="name" /></label>   
+                  <label class="form-label">Name:</label>
+                  <input class="form-control" type="text" name="name" />
                 </p>
                 <p>
-                  <label>Your Email: <input type="email" name="email" /></label>
+                  <label class="form-label">Email:</label>
+                  <input class="form-control" type="email" name="email" />
                 </p>
                 <p>
-                  <label>Message: <textarea name="message"></textarea></label>
+                  <label for="phone" class="form-label">Phone:</label>
+                  <input type="tel" name="phone" class="form-control">
                 </p>
                 <p>
-                  <button type="submit">Send</button>
+                  <label class="form-label">Message:</label>
+                  <textarea class="form-control" name="message"></textarea>
                 </p>
+                <div>
+                  *Remember to leave your contact information. I will get back to you asap.
+                </div>
+                <p>
+                  <button type="submit" class="btn btn-primary mb-3">Send</button>
+                </p>
+ 
             </form>
           </div>
-          <footer class="p-5">
-              <p>2021</p>
+          <footer class="mt-4 mb-4">
+              <div class="text-center"><a href="https://chih-jung-chen.netlify.app/">Chih-Jung Chen</a> 2021</div>
           </footer>
     </div>
-
-    <script>
-    </script>
     
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
